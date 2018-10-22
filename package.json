@@ -11,7 +11,7 @@
     "lint": "ionic-app-scripts lint"
   },
   "dependencies": {
-    "@angular/animations": "5.2.11",
+    "@angular/animations": "5.2.5",
     "@angular/cdk": "5.2.5",
     "@angular/common": "5.2.11",
     "@angular/compiler": "5.2.11",
@@ -36,5 +36,8 @@
     "@ionic/app-scripts": "3.2.0",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "config": {
+    "ionic_copy": "./config/copy.config.js"
+  }
 }

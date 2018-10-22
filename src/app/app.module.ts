@@ -5,26 +5,45 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatToolbarModule} from '@angular/material/toolbar';
 
+import { ToolbarComponent } from '../pages/toolbar/toolbar.component'
+import { NavigationMenuComponent } from '../pages/navigation-menu/navigation-menu.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {DesignerComponent} from '../pages/designer/designer.component'
+import { HttpClientModule } from '@angular/common/http';
+import { PropertiesComponent } from '../pages/properties/properties.component'
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    ToolbarComponent,
+    NavigationMenuComponent,
+    DesignerComponent,
+    PropertiesComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
+    MatExpansionModule,
+    MatListModule,
+    MatButtonModule,
+    MatInputModule,
+    MatIconModule,
+    MatMenuModule,
     MatToolbarModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    HomePage
+    MyApp
   ],
   providers: [
     StatusBar,

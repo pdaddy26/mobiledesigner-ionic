@@ -1,0 +1,37 @@
+#canvas_container {
+    /* display: flex;
+    justify-content: center; */
+    background: url(../assets/imgs/nexus5-black.png) no-repeat;
+    width: 408px;
+    height: 804px;
+    margin: auto;
+    margin-top: 10px;
+}
+#canvas {
+    width: 360px;
+    height: 640px;
+    position: relative;
+    top: 73px;
+    left: 24px;
+    background-color: #eee;
+}
+
+.selected {
+    border: 2px solid blue;
+}
+
+#canvas *:hover {
+    border: 1px solid blue;
+}
+
+#designer_canvas_container {
+    position: relative;
+    background-color: rgb(252, 253, 255); 
+}
+#build {
+    float:right;
+    position: absolute;
+    right:10px;
+    top: 0px;
+    background-color:rgb(42,147,230);
+}

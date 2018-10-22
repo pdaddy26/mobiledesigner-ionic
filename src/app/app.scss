@@ -14,3 +14,33 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+#main_container {
+
+}
+
+#header_container {
+    
+}
+
+#side_menu_container {
+    height: 100vh;
+    background-color: rgb(243, 247, 251);
+}
+
+#content_container {
+    display: flex;
+}
+#designer_container {
+    /* border: 1px solid black; */
+    flex:3;
+    height: 100vh;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+#properties_container {
+    /* border: 1px solid red; */
+    flex: 1;
+    height: 100vh;
+}

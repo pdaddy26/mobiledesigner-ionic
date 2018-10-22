@@ -1,3 +1,3 @@
 { 
-    "template" : "<div style=\"width:100%\"><button>Touch me!</button><label>Oh hell NO!</label><input type=\"text\" value=\"Type here\"/><p>bonjour les amis</p></div>"
+    "template" : "<ion-header><ion-navbar><ion-title>Buttons</ion-title></ion-navbar></ion-header><ion-content padding><p><button ion-button color=\"light\">Light</button></p><p><button ion-button>Default</button></p><p><button ion-button color=\"secondary\">Secondary</button></p><p><button ion-button color=\"danger\">Danger</button></p><p><button ion-button color=\"dark\">Dark</button></p></ion-content>"
 }

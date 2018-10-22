@@ -38,7 +38,7 @@ export class DesignerComponent {
       console.log(template);
 
       // inject the html into the canvas
-      //this.render.setProperty(this.canvas.nativeElement, 'innerHTML', template.template);
+      this.render.setProperty(this.canvas.nativeElement, 'innerHTML', template.template);
 
       // find all children under the canvas
       this.findAllChildren(this.canvas.nativeElement);
